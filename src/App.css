@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+* {
+  width: 100%;
+}
+* {
+  font-family: "Space Mono";
+}
+
+header {
+  background-color: hsl(185, 41%, 84%);
+}
+
+body {
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono";
+}
+
+.header-text-wrapper {
+  margin: 100px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.header-text {
+  /* justify-content: center; */
+  margin: 0;
+  text-align: center;
+  padding-left: 10px;
+  font-size: calc(30rem * 0.0625);
+  width: auto;
+  letter-spacing: 10px;
+  font-weight: 700;
+  font-family: "Space Mono";
+  color: rgba(61, 102, 102, 1);
+}
+
+.Main-container {
+  background-color: white;
+  width: 65%;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.Main-container > * {
+  width: 50%;
+  height: inherit;
+  flex-direction: column;
+}
+
+.Bill-container {
+  height: 20%;
+  font-size: 20px;
+}
+
+.Bill-info {
+  opacity: 70%;
+}
+
+.Bill-input {
+  width: calc(25% - 8px);
+  height: 50%;
+  background-color: rgba(243, 249, 250, 1);
+  border-radius: 5px;
+  border-style: none;
+  text-align: left;
+  padding: 0 5% 0 70%;
+  font-size: 24px;
+  color: rgba(0, 71, 75, 1);
+  font-weight: 800;
+}
+
+.Bill-input:focus {
+  outline: rgba(38, 194, 174, 1) solid 3px;
+}
+
+.Input-icon {
+  background-image: url("C:\Users\sabaa\Desktop\tip-calculator-app\tip-calculator\images\icon-dollar.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  margin: 20px 20px;
+  width: 20px;
+  height: 20px;
+}
