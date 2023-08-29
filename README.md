@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/abramishvilisaba/tip-calculator-app)
-- Live Site URL: [Add live site URL here](https://sabramishvili-tip-app.netlify.app/)
+- Solution URL: [Github](https://github.com/abramishvilisaba/tip-calculator-app)
+- Live Site URL: [Netlify](https://sabramishvili-tip-app.netlify.app/)
 
 
 ### Built with
